@@ -3,7 +3,7 @@
 ''' creating a class '''
 class Square:
 
-
-    '''initializing a method '''
+    '''initializing a special method __init__ '''
     def __init__(self, name):
-        self.name = name
+        ''' creating a new variable'''
+        self._name = name
