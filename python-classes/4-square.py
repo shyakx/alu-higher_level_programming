@@ -2,27 +2,30 @@
 '''create a class'''
 
 class Square:
-    '''property getter'''
-    def size(self):
-        return self.__size
-    '''property setter'''
-    def def size(self, value):
-        '''making sure size is integer'''
-        if not isinstance(size, int):
-            '''an error to raise'''
-            raise TypeError("size must be an integer")
-        '''making sure size is positive integer'''
-        if size < 0:
-            ''' Error to raise '''
-            raise ValueError("size must be >= 0")
-    
-    '''instantation'''
+    '''Initializing a special method __init__ '''
     def __init__(self, size=0):
         self.__size = size
 
-    '''public instance method that returns current square area'''
+    @property
+    def size(self):
+        return self.__size
+
+    '''setting size'''
+    @size.setter
+    def size(self, value):
+        '''condition to make size integer otherwise gives typeerror'''
+        if not isinstance(value, int):
+            '''raising of error with message'''
+            raise TypeError("size must be an integer")
+
+        ''' condition to make size positive'''
+        if value < 0:
+            '''raising of value error'''
+            raise ValueError("size must be >= 0")
+
+        self.__size = value
+
+
+    '''Public instance'''
     def area(self):
         return self.__size ** 2
-
-    def get_size(self):
-        return self.__size
