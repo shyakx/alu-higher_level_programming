@@ -6,6 +6,9 @@ class Square:
     def __init__(self, size=0):
         self.__size = size
 
+
+
+    '''property declaration'''
     @property
     def size(self):
         return self.__size
@@ -25,6 +28,7 @@ class Square:
 
         self.__size = value
 
+    '''public instance'''
     def area(self):
         return self.__size ** 2
     '''another pubic instance to print #'''
