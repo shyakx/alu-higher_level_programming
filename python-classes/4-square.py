@@ -25,7 +25,5 @@ class Square:
 
         self.__size = value
 
-
-    '''Public instance'''
     def area(self):
         return self.__size ** 2
