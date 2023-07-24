@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
 ''' creating a class '''
+
+
 class Square:
 
     '''initializing a special method __init__ '''
