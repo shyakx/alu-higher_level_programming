@@ -4,6 +4,6 @@
 class Square:
 
 
-    '''initializing an instance'''
-    def __init__ (self,age):
+'''initializing an instance'''
+    def __init__(self, age):
         self._age = age
