@@ -1,14 +1,12 @@
 #!/usr/bin/python3
 '''create a class'''
 
+
 class Square:
     '''Initializing a special method __init__ '''
     def __init__(self, size=0):
         self.__size = size
 
-
-
-    '''property declaration'''
     @property
     def size(self):
         return self.__size
@@ -28,13 +26,11 @@ class Square:
 
         self.__size = value
 
-    '''public instance'''
     def area(self):
         return self.__size ** 2
-    '''another pubic instance to print #'''
-    def my_print(self):
-        if size = 0:
-            print()
-        else:
-            for _ in range(self.__size):
-                print("#" * self.__size)
+    '''a public instance method that prints # character '''
+    if size = 0:
+        print()
+    else:
+        for _ in range(self.__size):
+            print("#" * self.__size)
