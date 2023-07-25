@@ -6,24 +6,7 @@ creating a new class
 
 class Rectangle:
     """
-    A class that represents a rectangle.
-
-    Attributes:
-        __width (int): The width of the rectangle.
-        __height (int): The height of the rectangle.
-
-    Methods:
-        __init__(self, width=0, height=0): Initializes a new rectangle object with the given width and height.
-        width (property): Retrieves the width of the rectangle.
-        width (setter): Sets the width of the rectangle.
-        height (property): Retrieves the height of the rectangle.
-        height (setter): Sets the height of the rectangle.
-        area(self): Calculates and returns the area of the rectangle.
-        perimeter(self): Calculates and returns the perimeter of the rectangle.
-
-    Raises:
-        TypeError: If width or height is not an integer.
-        ValueError: If width or height is less than 0.
+    A class that represents a rectangle with attributes and different methods
     """
 
     def __init__(self, width=0, height=0):
