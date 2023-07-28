@@ -1,12 +1,10 @@
 #!/usr/bin/python3
-"""create aclass """
+"""create a class """
 
 
 class BaseGeometry:
     """
-    A class representing a base geometry.
-    Public instance method:
-    - area(self): Raises an Exception
+    A class representing a base geometry
     """
      def area(self):
         """
