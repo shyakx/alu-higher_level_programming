@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+'''creating a function that returns objetct's attribute'''
 
 def lookup(obj):
     """
