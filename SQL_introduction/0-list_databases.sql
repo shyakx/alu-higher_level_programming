@@ -1,2 +1,2 @@
 --listing all in my MySQL server
-SELECT *
+SHOW DATABASES;
