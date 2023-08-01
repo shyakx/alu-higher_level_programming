@@ -1,2 +1,2 @@
--- the script that shows all descriptionsof a table in a database
-SHOW CREATE TABLE hbtn_0c_0.first_table;
+-- this is a script that prints full description of table 'first_table' from hbtn_0c_0database
+SELECT * FROM first_table WHERE hbtn_0c_0;
