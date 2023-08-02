@@ -1,3 +1,3 @@
---This is a script that displays the number of records
---Where The database name will be passed as an argument of the mysql command
+-- count the number of record
+-- display the number of record with id 89
 SELECT COUNT(*) FROM `first_table` WHERE `id` = 89;
