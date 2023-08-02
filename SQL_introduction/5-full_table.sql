@@ -1,2 +1,2 @@
--- this is a script to print the full description of first_table
-SELECT * hbtn_0c_0.first_table 
+-- Script to list all records from second_table with a name value
+SHOW CREATE TABLE `first_table` 
