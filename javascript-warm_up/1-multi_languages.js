@@ -1,9 +1,10 @@
 #!/usr/bin/node
+/* a script that prints 3 lines  */
 
-let var1 = "C is fun";
-let var2 = "Python is cool";
-let var3 = "JavaScript is amazing";
+const lineA = 'C is fun';
+const lineB = 'Python is cool';
+const lineC = 'JavaScript is amazing';
 
-console.log(var1);
-console.log(var2);
-console.log(var3);
+console.log(lineA);
+console.log(lineB);
+console.log(lineC);
